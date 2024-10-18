@@ -77,6 +77,7 @@ const projectConfig = {
   database_url: DATABASE_URL,
   admin_cors: ADMIN_CORS,
   redis_url: REDIS_URL,
+  worker_mode: process.env.MEDUSA_WORKER_MODE,
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule} */
