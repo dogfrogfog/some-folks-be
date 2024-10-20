@@ -1,3 +1,4 @@
+// @ts-ignore
 import { generateEntityId } from "@medusajs/utils";
 import { MigrationInterface, QueryRunner } from "typeorm";
 
