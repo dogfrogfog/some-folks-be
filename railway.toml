@@ -2,10 +2,10 @@
 builder = "NIXPACKS"
 
 [build.nixpacksPlan.phases.setup]
-nixPkgs = ["nodejs", "pnpm"]
+nixPkgs = ["nodejs", "yarn"]
 
 [build.nixpacksPlan.phases.install]
-command = "pnpm install"
+command = "yarn install"
 
 [build.nixpacksPlan.phases.build]
-command = "pnpm build"
+command = "yarn build"
